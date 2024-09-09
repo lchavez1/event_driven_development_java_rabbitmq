@@ -4,6 +4,10 @@
 
 This repository contains the instructions to create and implement an event driven development (EDD) using Spring Boot and RabbitMQ.
 
+### What Is Event-Driven Architecture?
+
+*Event-driven architecture (EDA) is a software design pattern that allows systems to detect, process, manage, and react to real-time events as they happen. With EDA, the second an event occurs, information about that event is sent to all the apps, systems, and people that need it in order to react in real time. From multiplayer games, online banking, and streaming services, to generative AI, over 72% of global organizations use EDA to power their apps, systems, and processes.* (Counfluent.io, s.f., event-driven-architecture).
+
 This example of EDD contains the producer and listener. The producer will be the responsible to send user to the queue using a REST controller, the listener will be listening messages from the queue in RabbitMQ and will process the messages, once a message is read the output will be "Welcome to the system, user".
 
 # 2. Environment Prerequisites
@@ -65,3 +69,4 @@ In this [link](./functional_requirements_example.md) you will find the definitio
 * Include Postman collection for easy review. (especificar ambos pantallazos y archivo. Detallar cada entregable)
 
 # 7. Resources
+[What Is Event-Driven Architecture?](https://www.confluent.io/es-es/learn/event-driven-architecture/#:~:text=Event-driven%20architecture%20%28EDA%29%20is%20a%20software%20design%20pattern,it%20in%20order%20to%20react%20in%20real%20time.)
