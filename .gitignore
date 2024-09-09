@@ -1,0 +1,47 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Listener ###
+/event_driven_listener/HELP.md
+/event_driven_listener/target/
+/event_driven_listener/!.mvn/wrapper/maven-wrapper.jar
+/event_driven_listener/!**/src/main/**/target/
+/event_driven_listener/!**/src/test/**/target/
+
+### Producer ###
+/event_driven_producer/HELP.md
+/event_driven_producer/target/
+/event_driven_producer/!.mvn/wrapper/maven-wrapper.jar
+/event_driven_producer/!**/src/main/**/target/
+/event_driven_producer/!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
